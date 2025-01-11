@@ -147,3 +147,23 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+/* For fade-in effect */
+.section {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.section.fade-in {
+  opacity: 1;
+}
+
+/* Sticky Header Style */
+header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
